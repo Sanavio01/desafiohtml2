@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Pagina Inicial</a></li>
+                <li><a href="about.html">Sobre a Clinica</a></li>
+                <li><a href="office-hours.html">Horarios de Atendimento</a></li>
+                <li><a href="contacts.html">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="images\4.png" height="150px" width="1000" style="padding-bottom: 0;"  alt="banner da clinica">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <div class="contatos">
+                    <h1>Fale Conosco</h1>
+                    <div class="fone">
+                        <h2>Telefone</h2>
+                        <p>(11) 5576-4845</p>
+                        <h2>Whatsapp</h2>
+                        <p>(11) 5576-4845</p>
+                        <h2>Email</h2>
+                        <p>dentcare@dentcare.com.br </p>
+                    </div>   
+                <div class="form">
+                    <h3>Preencha o Formulario Abaixo</h3>
+                    <form action="processar" method="post">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu Email">
+                        <br>
+                        <label for="nome">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Digite Assunto">
+                        <div>
+                            <textarea id="mensagem" name="mensagem" rows="10" cols="50"></textarea>
+                        </div>
+                        <div>
+                            <button type="reset">Limpar</button>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>        
+                <div class="endereço">
+                    <h2>Endereço</h2>
+                    <p>Rua Cel. Artur Godói, 66 - Vila Mariana, São Paulo - SP, 04018-050</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5529124958452!2d-46.64289542441121!3d-23.584495578783862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce598616decb71%3A0xabcf61e402e90102!2sR.%20Cel.%20Artur%20God%C3%B3i%2C%2066%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004018-050!5e0!3m2!1spt-BR!2sbr!4v1703710460168!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <div class="additional-content">
+                    <div class=" termos"> 
+                        <a href="#">Nossos termos</a>
+                    </div>
+                    <div class="politicas">
+                      <a href="#">Politica de Privacidade</a>
+                    </div>
+                    
+                    <p class="register">Marca Registrada &reg; 2023 Dent care. Todos os direitos reservados.</p>
+                    <h6>Desenvolvido Por SS&WD</h6>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
